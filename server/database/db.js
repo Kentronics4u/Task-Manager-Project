@@ -9,9 +9,9 @@ const options = {
 mongoose
 	.connect(mongoURI, options)
 	.then(() => {
-		console.log('Connected to MongoDB');
+		console.log('Connected to Database');
 		// Start your application or perform additional operations
 	})
 	.catch((error) => {
-		console.error('Error connecting to MongoDB:', error);
+		console.error('Error connecting to Database:', error);
 	});
