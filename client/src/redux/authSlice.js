@@ -55,10 +55,10 @@ export const register = (user) => async (dispatch) => {
 		};
 
 		const response = await axios.post(
-			'http://localhost:4000/auth/register',
-			user,
-			config
-		);
+      "https://tiny-puce-nematode-tam.cyclic.app/auth/register",
+      user,
+      config
+    );
 
 		if (response) {
 			dispatch(registerSuccess(response.data));
@@ -83,9 +83,9 @@ export const signin = (user) => async (dispatch) => {
 			password: user.password,
 		};
 		const response = await axios.post(
-			'http://localhost:4000/auth/signin',
-			userData
-		);
+      "https://tiny-puce-nematode-tam.cyclic.app//auth/signin",
+      userData
+    );
 		if (response) {
 			localStorage.setItem('auth', JSON.stringify(response.data));
 			dispatch(loginSuccess(response.data));
