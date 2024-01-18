@@ -1,17 +1,13 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const mongoURI = 'mongodb://127.0.0.1:27017/task-manager';
-const options = {
-	useNewUrlParser: true,
-	useUnifiedTopology: true,
-};
+const mongoURI = process.env.MONGO_URI;
 
 mongoose
-	.connect(mongoURI, options)
-	.then(() => {
-		console.log('Connected to Database');
-		// Start your application or perform additional operations
-	})
-	.catch((error) => {
-		console.error('Error connecting to Database:', error);
-	});
+  .connect(mongoURI)
+  .then(() => {
+    console.log("Connected to Database");
+    // Start your application or perform additional operations
+  })
+  .catch((error) => {
+    console.error("Error connecting to Database:", error);
+  });

@@ -24,7 +24,7 @@ const TaskList = () => {
 					<h5>Id</h5>
 				</li>
 				<li>
-					<h5>Issue Name</h5>
+					<h5>Title</h5>
 				</li>
 				<li>
 					<h5>Status</h5>

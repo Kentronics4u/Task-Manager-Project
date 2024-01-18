@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import './dashboard.scss';
 import { useEffect } from 'react';
 import { getAllTasks } from '../../redux/taskSlice';
+
 const Dashboard = () => {
 	const tasklist = useSelector((state) => state.task);
 	const { AllTasks } = tasklist;

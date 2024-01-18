@@ -1,0 +1,16 @@
+.addtask {
+  width: 100%;
+}
+.addtask form {
+  width: 70%;
+  margin: 3rem;
+  display: flex;
+}
+.addtask input {
+  padding: 5px;
+  width: 30rem;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}/*# sourceMappingURL=addtask.css.map */

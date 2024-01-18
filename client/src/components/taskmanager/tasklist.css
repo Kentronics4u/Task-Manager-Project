@@ -1,0 +1,16 @@
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  background-color: red;
+  padding: 1rem;
+  color: white;
+}
+.list-header li {
+  flex: 1;
+}
+.list-header h5 {
+  font-size: 14px;
+}/*# sourceMappingURL=tasklist.css.map */
