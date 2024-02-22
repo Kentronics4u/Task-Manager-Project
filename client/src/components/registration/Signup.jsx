@@ -67,7 +67,7 @@ const Signup = () => {
 						/>
 					</div>
 					<div className='form-group'>
-						<button className='button'>Sing Up</button>
+						<button className='button'>Sign Up</button>
 					</div>
 				</form>
 			</div>
